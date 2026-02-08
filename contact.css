@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background: #7da8b0;
+    background: linear-gradient(90deg, rgba(125, 168, 176, 1) 0%, rgba(138, 181, 186, 1) 12%, rgba(39, 183, 194, 1) 31%, rgba(47, 208, 204, 1) 67%, rgba(50, 217, 208, 1) 80%, rgba(43, 204, 191, 1) 88%, rgba(28, 202, 237, 1) 100%);
+    margin: 0%;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0%;
+    margin-left:50%;
+    font-size: larger;
+}
+nav ul li{
+    margin: 20;
+    margin-right: 40px;
+}
+nav ul li a{
+    color:rgb(46, 40, 40);
+    text-decoration: none;
+    margin-left: 50%;
+    padding: 15px;
+    position:relative;
+    display: flex;
+}
+nav ul li a:hover{
+    transform: scale(1.1);
+    color:rgb(46, 40, 40) ;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(46, 40, 40);
+}
+#contact {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: rgb(46, 40, 40);
+  border-radius: 12px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: rgb(84, 241, 249);
+  font-size: 28px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+#contact p {
+  color:white;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+#contact li {
+  font-size: 16px;
+  margin: 10px 0;
+  color: white;
+}
+
+#contact li span {
+  color: white;
+}
+
+#contact a {
+  color: rgb(84, 241, 249);
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact form {
+  margin-top: 20px;
+}
+
+#contact table {
+  margin: 0 auto;
+}
+
+#contact td {
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(84, 241, 249);
+}
+#contact input{
+  width: 220px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+#contact{
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.3);
+}
+#contact #submit {
+  background-color: rgb(84, 241, 249);
+  color:rgb(46, 40, 40) ;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  margin-left: 200%;
+  width: 100px;
+}
+
+#contact #submit:hover {
+  background-color: rgb(84, 241, 249);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+  header {
+    background-color: rgb(57, 52, 52);
+    padding: 10px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;   
+    justify-content: center;      
+    align-items: center;
+    margin-left: -25%;          
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  nav ul li a:hover {
+    transform: scale(1.1);
+    color: black;
+    cursor: pointer;
+  }
+  #contact {
+  max-width: 700px;
+  margin: 20px ;
+  padding: 40px;
+  background-color: rgb(46, 40, 40);
+  border-radius: 12px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: rgb(84, 241, 249);
+  font-size: 28px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+#contact p {
+  color:white;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+#contact li {
+  font-size: 16px;
+  margin: 10px 0;
+  color: white;
+}
+
+#contact li span {
+  color: white;
+}
+
+#contact a {
+  color: rgb(84, 241, 249);
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact form {
+  margin-top: -30px;
+  margin-left: -26%;
+}
+
+#contact table {
+  margin:;
+}
+
+#contact td {
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(84, 241, 249);
+}
+#contact input{
+  width: 150px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+#contact{
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.3);
+}
+#contact #submit {
+  background-color: rgb(84, 241, 249);
+  color:rgb(46, 40, 40) ;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  margin-left: 100%;
+  width: 100px;
+}
+
+#contact #submit:hover {
+  background-color: rgb(84, 241, 249);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+ 
+}
